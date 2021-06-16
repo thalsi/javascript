@@ -262,13 +262,13 @@ function fondend(){
 
 fondend();
 
- wait1=new Promise(function (resolve, reject) {
+ let waiting=new Promise(function (resolve, reject) {
     setTimeout(function () {
-    resolve('USER DATA SENT SERVER')}, 4000); 
+    resolve('USER DATA SENT SERVER')}, 3000); 
 });
 
 async function fondend1(){
-    let dat=await wait1();
+    let dat=await waiting;
     console.log('WAITING---->'+dat);
     console.log('ASYNC FUNCTION END!!!!!!');
 }
