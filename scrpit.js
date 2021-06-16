@@ -177,3 +177,100 @@ let arrow =()=>{
 
 anonum();
 arrow();
+
+//5. Asynchrous
+
+// console.log('sart set timeout');
+
+// setTimeout(() => {
+//     console.log('pressing time out');
+// }, 100);
+
+// console.log('end timeout');
+
+// console.log('sart interval');
+
+// setInterval(()=>{
+//     console.log('processing interval');
+// },100);
+
+// console.log('end interval');
+// function my(){
+//     console.log('my function');
+// }
+// setTimeout(my(),300)
+
+// const myfun=function(){
+//     console.log('second function');
+// }
+// setTimeout(myfun,300)
+
+//callback function
+
+function geet(name,callback){//function
+    console.log('normal function-->'+name);
+    callback();
+}
+function callme(){
+    console.log('i am call back function');
+}
+geet('petter',callme);
+
+
+//promise
+
+var promiseCoundition=true;
+let promise= new Promise(function (reslove, reject){
+    if(promiseCoundition){
+        reslove("Promise successful...");
+    }else{
+        reject('Promise error ..!');
+    }
+});
+
+console.log(promise);
+
+let p2=new Promise((reslove,reject)=>{
+    let data=true;
+    if(data){
+        reslove('sceesfully...!');
+    }else{
+        reject('server error...!');
+    }
+});
+
+p2.then(function (res){
+    console.log('then result---->'+res);
+}).catch(function (eorr){
+    console.log('catch result---> '+eorr);
+});
+
+//asyn /awit
+
+//no asyn function example
+function wait(){
+    setTimeout(() => {
+        return 'user data server';
+    }, 4000);
+}
+
+function fondend(){
+    let dat=wait();
+    console.log('wait---->'+dat);
+    console.log('function end!!!!!!');
+}
+
+fondend();
+
+ wait1=new Promise(function (resolve, reject) {
+    setTimeout(function () {
+    resolve('USER DATA SENT SERVER')}, 4000); 
+});
+
+async function fondend1(){
+    let dat=await wait1();
+    console.log('WAITING---->'+dat);
+    console.log('ASYNC FUNCTION END!!!!!!');
+}
+
+fondend1();

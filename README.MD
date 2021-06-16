@@ -89,3 +89,22 @@
 - parmeter
 - Arrow Function
 - Anonymous function (a function without a name).
+
+### 9. Asynchronous
+
+- Asynchronous is wait for other result after excution.
+
+1. setTimeout
+2. setInteral
+3. callbacks
+
+- a callback function is that you can wait for the result of a previous function call and then execute another function call.(waiting for another function result after execute another function).
+- Error handling may be hard to manage.
+
+4. promises
+
+- it is used to find out if the asynchronous operation is successfully completed or not.
+- Error handling is easier to manage.
+- Promise Methods( all, allSettled, any, race, reject, resolve, catch, then, finally )
+
+5. async/Await
