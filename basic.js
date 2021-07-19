@@ -1,5 +1,6 @@
 
-//1.Varblies
+//================================== 1.Varblies =================================
+
 var a=546;
 let ab=45;
 const abc=45;
@@ -25,7 +26,11 @@ x=5;
 console.log(x);
 var x;
 
-//2.Data types
+
+
+
+//================================== 2.Data types =================================
+
 /*
     1.pimitive DataType
         1.number
@@ -66,7 +71,10 @@ console.log(typeof(obj));
 console.log(typeof(arr));
 console.log(typeof function myFunc(){});
 
-//3.Loops
+
+
+//================================== 3.Loops =================================
+
 var i=0;
 while(5>i){
     console.log("while loop-->"+i);
@@ -140,7 +148,9 @@ for (let index = 0; index <5 ; index++) {//barck
     console.log(index);
 }
 
-//4.Control flow 
+
+//================================== 4.Control flow  =================================
+
 /*
     1.if..else
     2.swich
@@ -178,7 +188,10 @@ let arrow =()=>{
 anonum();
 arrow();
 
-//5. Asynchrous
+
+
+//================================== 5. Asynchrous  =================================
+
 
 // console.log('sart set timeout');
 
