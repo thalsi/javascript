@@ -20,7 +20,7 @@ console.log("index postion = "+ userName[userName.length-2]);
 //arry loop are main three type
 //1. for loop
 //2.forEach
-//3.for..of
+//3.for..of - iterable objects and defines a new construct for traversing data, the for...of statement.
 
 //for loop
 for (let index = 0; index < userName.length; index++) {
@@ -31,4 +31,6 @@ for (let index = 0; index < userName.length; index++) {
 userName.forEach((element, index) => {
     console.log("ForEach =>"+ element +" index=>"+index);
 });
+
+
 
