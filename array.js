@@ -32,5 +32,32 @@ userName.forEach((element, index) => {
     console.log("ForEach =>"+ element +" index=>"+index);
 });
 
+//for..of
+for(const val of userName){
+    console.log("for of => "+ val);
+    
+}
 
+//Add an item to the end of an Array
 
+userName.push('oragen');
+console.log("item add end of an arrary=> "+userName);
+
+//Remove an item from the end of an Array
+userName.pop();
+console.log("remove item end of an array=> "+userName);
+
+//remove item form binning of an array
+userName.shift();
+console.log("remove item binning of an array=> "+userName);
+
+//Add item form binning of an array
+userName.unshift('helloo');
+console.log("add item form binning of an array=> "+userName);
+
+//Find the index of an item in the Array
+console.log("Find the index =>"+userName.indexOf('ajumal'));
+
+//Remove an item by index position
+console.log("Remove an item by index position-->"+userName.splice(1,2));
+console.log(userName);
