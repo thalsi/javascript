@@ -108,3 +108,24 @@
 - Promise Methods( all, allSettled, any, race, reject, resolve, catch, then, finally )
 
 5. async/Await
+
+### 10. Array Common operations
+
+- Array is a single variable that is used to store deffrent elements.
+- Array is data structure
+
+1. Index Position
+2. loop array
+   - For
+   - ForEach
+   - For..Of
+3. Add an Item to the End of an Array
+4. Remove an Item form End of an Array
+5. Remove an Iten form the beginner of an Array
+6. Add an item form the biginner of an Array
+7. Find the index of an Array
+8. Remove an item of index postion
+9. Remove an Items of index postion
+10. Copy of Array
+
+### 11. Array Methords

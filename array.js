@@ -61,3 +61,66 @@ console.log("Find the index =>"+userName.indexOf('ajumal'));
 //Remove an item by index position
 console.log("Remove an item by index position-->"+userName.splice(1,2));
 console.log(userName);
+
+
+/*=================================Second Time Lrean====================================*/
+
+person=['Ali mon', 'Ajas' ,'Aji', 'shkker', 'Ammu', 'shihab', 'Princes'];
+
+//1. index number
+console.log(person[3]);
+console.log(person.length-2);
+
+//2. Array loops
+for (let index = 0; index < person.length; index++) {
+    console.log(person[index]);
+}
+
+person.forEach((value, index)=>{
+    console.log(value);
+    console.log(index);
+})
+
+for(const i of person){
+    console.log(i);
+}
+
+//4. Add an Item to the End of Array
+person.push('Jijo');
+
+//4. Remove an Item to the End of Array
+person.pop();
+
+//5. Remove an item Form the biginning of Array
+console.log(person);
+person.shift();
+console.log(person);
+
+//6. Add item form the bignner an Array
+console.log(person);
+person.unshift('Karthika')
+console.log(person);
+
+//7. find the index of an Array
+console.log(person);
+let indexof=person.indexOf('Ammu')
+console.log(indexof);
+
+//8. Remove an item from of index postion
+console.log(person);
+person.splice(1,1);
+console.log(person);
+
+//9.Remove ana items form of index postion
+let indexNumber=2;
+let numberOfItems=3;
+console.log(person);
+console.log(person.splice(indexNumber,numberOfItems));
+console.log(person);
+
+//10.Copy of Array
+console.log(person);
+let copyArray = person.splice();
+console.log(copyArray);
+
+console.log(Object.keys(person));
