@@ -129,3 +129,19 @@
 10. Copy of Array
 
 ### 11. Array Methords
+
+- Array Methords
+
+1. concat() - two array merge
+2. fill() - change all element in array
+3. filter() - crate new Array with all element filter element retrun
+4. find() - find value return of fast element
+5. findIndex() - findIndex retrun of fast element index
+6. includes() - Array element include retrun boolean(true)
+7. join() - Array all element join single value
+8. keys() - Array index new Array Iterator object for each index in an Array
+9. lastindexOf() - Array find last index of element
+10. map() - careated new Array each element value change
+11. reduce() - array all element calculate total value get
+12. reverse() - Array reverses
+13. sort() - Array sorting
