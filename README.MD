@@ -145,3 +145,23 @@
 11. reduce() - array all element calculate total value get
 12. reverse() - Array reverses
 13. sort() - Array sorting
+
+### 12. Object
+
+- Object id non-primatiive data type
+- Evarthing is an javascrpit in Object
+
+- cerate object in javascrpit
+
+  1.  objet literal
+  2.  instance of object (new keyword)
+  3.  object constructor (new keyword)
+
+- three way to list proparty
+
+  1.  for..in
+  2.  object.keys()
+  3.  object.getOwnpropartynames()
+
+- Methords
+  1. assign() - copy all proparty target obj to scouse obj
