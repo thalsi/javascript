@@ -83,12 +83,23 @@
 
 ### 8. Function
 
-- Declartion
-- Exprestion
-- calls(invokes)
-- parmeter
-- Arrow Function
-- Anonymous function (a function without a name).
+- Function is a block of code
+- JavaScript supports overriding not overloading
+- overriding
+  - same name and same parameter type
+  - sum(a,b)
+  - sum(a,b,c)
+- overloading
+  - same name diffrent parmameter type
+  - sum(int a, int b)
+  - sum(int a, int b, int c)
+  - sum(float a,float b)
+
+1. named function
+2. Anonymous function (without a name).
+   - does not have any name
+3. Arrow function
+   - ES6 introduced a new and shorter way of declaring an anonymous function
 
 ### 9. Asynchronous
 

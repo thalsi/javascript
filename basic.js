@@ -1,33 +1,29 @@
-
 //================================== 1.Varblies =================================
 
-var a=546;
-let ab=45;
-const abc=45;
+var a = 546;
+let ab = 45;
+const abc = 45;
 
 //gobal and local scpoe
 
-var gobal='hi';//gobal
+var gobal = "hi"; //gobal
 
-function gobalscpoe(){
-    console.log(gobal);//gobal use here..
+function gobalscpoe() {
+  console.log(gobal); //gobal use here..
 }
-let f=gobalscpoe();
-console.log(gobal);//gobal use here..
+let f = gobalscpoe();
+console.log(gobal); //gobal use here..
 
-function localScpoe(){
-    var local='local varble';
-    console.log(local);//local use here..
+function localScpoe() {
+  var local = "local varble";
+  console.log(local); //local use here..
 }
 // console.log(local);//local not use here..
 
-//hosting 
-x=5;
+//hosting
+x = 5;
 console.log(x);
 var x;
-
-
-
 
 //================================== 2.Data types =================================
 
@@ -49,105 +45,105 @@ var x;
         7.regexp    
 */
 
-var num=45;
-var str='hello';
-var boole=false;
+var num = 45;
+var str = "hello";
+var boole = false;
 var y;
-var n=null;
-console.log(typeof(num));
-console.log(typeof(str));
-console.log(typeof(boole));
-console.log(typeof(y));
-console.log(typeof(no_decrate));
-console.log(typeof(n));
+var n = null;
+console.log(typeof num);
+console.log(typeof str);
+console.log(typeof boole);
+console.log(typeof y);
+console.log(typeof no_decrate);
+console.log(typeof n);
 
-var obj={id:45,name: 'stringData'};
-var arr=[223,43,54,65,7];
-function fee(){
+var obj = { id: 45, name: "stringData" };
+var arr = [223, 43, 54, 65, 7];
+function fee() {}
 
-}
-
-console.log(typeof(obj));
-console.log(typeof(arr));
-console.log(typeof function myFunc(){});
-
-
+console.log(typeof obj);
+console.log(typeof arr);
+console.log(typeof function myFunc() {});
 
 //================================== 3.Loops =================================
 
-var i=0;
-while(5>i){
-    console.log("while loop-->"+i);
-    i++;
+var i = 0;
+while (5 > i) {
+  console.log("while loop-->" + i);
+  i++;
 }
-i=0;
-console.log('while loop end');
+i = 0;
+console.log("while loop end");
 do {
-    console.log("do while loop-->"+i);
-    i++;
-} while (i<5);
-i=0;
-console.log('do..while loop end');
+  console.log("do while loop-->" + i);
+  i++;
+} while (i < 5);
+i = 0;
+console.log("do..while loop end");
 
-let share ={
-    name:'ali mon',
-    date:'20-04-1197',
-    palces:'muvattupzha',
-    age:34,
-}
+let share = {
+  name: "ali mon",
+  date: "20-04-1197",
+  palces: "muvattupzha",
+  age: 34,
+};
 //for in
-for(x in share){
-    console.log("for..in objectt name:-"+x);
+for (x in share) {
+  console.log("for..in objectt name:-" + x);
 }
-console.log('-----for..in END-------');
+console.log("-----for..in END-------");
 
-for(x in share){
-    console.log("for..in objectt value:-"+share[x]);
+for (x in share) {
+  console.log("for..in objectt value:-" + share[x]);
 }
-console.log('-----for..in END-------');
+console.log("-----for..in END-------");
 
 //for..of
-var shere2=[{name:'ali',age:34},{name:'ali',age:23}];
-for(x of shere2){
-    console.log("for..of "+x.age);
+var shere2 = [
+  { name: "ali", age: 34 },
+  { name: "ali", age: 23 },
+];
+for (x of shere2) {
+  console.log("for..of " + x.age);
 }
-console.log('-------for..of END------');
+console.log("-------for..of END------");
 
-var stringData="muvattupzha";
+var stringData = "muvattupzha";
 for (const i of stringData) {
-        console.log("for..of "+i);
+  console.log("for..of " + i);
 }
-console.log('-------for..of END------');
+console.log("-------for..of END------");
 
-var arr4=[34,34,54,65,67,78];
+var arr4 = [34, 34, 54, 65, 67, 78];
 for (const i of arr4) {
-    console.log("for..of "+i);
+  console.log("for..of " + i);
 }
-console.log('-------for..of END------');
+console.log("-------for..of END------");
 
-var arr5=[34,34,54,65,67,78];
+var arr5 = [34, 34, 54, 65, 67, 78];
 for (let [index, vaule] of arr5.entries()) {
-    console.log("for..of-->indx="+index+" value="+vaule);
+  console.log("for..of-->indx=" + index + " value=" + vaule);
 }
-console.log('-------for..of END------');
+console.log("-------for..of END------");
 
 //barck and condiune
-for (let index = 0; index <5 ; index++) {//coundune
-    if(index==2){
-        console.log('contine');
-        continue;
-    }
-    console.log(index);
+for (let index = 0; index < 5; index++) {
+  //coundune
+  if (index == 2) {
+    console.log("contine");
+    continue;
+  }
+  console.log(index);
 }
 
-for (let index = 0; index <5 ; index++) {//barck
-    if(index==3){
-        console.log('barck');
-        break;
-    }
-    console.log(index);
+for (let index = 0; index < 5; index++) {
+  //barck
+  if (index == 3) {
+    console.log("barck");
+    break;
+  }
+  console.log(index);
 }
-
 
 //================================== 4.Control flow  =================================
 
@@ -157,41 +153,51 @@ for (let index = 0; index <5 ; index++) {//barck
     3.try.catch
 */
 
-var Data= document.getElementById("inputData").vaule;
-var errorMassage=document.getElementById("error");
-errorMassage.innerHTML='no error...';
+//================================== 5.Functions  =================================
+// function addNumbers(n1, n2, n3) {
+//   console.log(">>>>>> 1");
+//   return n1 + n2 + n3;
+// }
 
-function clicking(){
-    console.log(Data);
-    try{
-        if(Data==""){
-            throw "sorry this is string !";
-        }
-        if(Data==5){
-            throw "sorry this is 5 press number !";
-        }
-    } catch(err){
-        errorMassage.innerHTML=err;
-        console.log(err);
+// function addNumbers(n1, n2) {
+//   console.log(">>>>>> 2");
+//   return n1 + n2;
+// }
+
+// // var sum = addNumbers(1, 2, 3);
+// console.log("function overrideing---->>>>>" + addNumbers(1, 2));
+// console.log("function overrideing---->>>>>" + addNumbers(1, 2, 3));
+var Data = document.getElementById("inputData").vaule;
+var errorMassage = document.getElementById("error");
+errorMassage.innerHTML = "no error...";
+
+function clicking() {
+  console.log(Data);
+  try {
+    if (Data == "") {
+      throw "sorry this is string !";
     }
+    if (Data == 5) {
+      throw "sorry this is 5 press number !";
+    }
+  } catch (err) {
+    errorMassage.innerHTML = err;
+    console.log(err);
+  }
 }
 
+let anonum = function () {
+  console.log("anonis functon call...");
+};
 
-let anonum =function (){
-    console.log('anonis functon call...');
-}
-
-let arrow =()=>{
-    console.log('arrow function call...');
-}
+let arrow = () => {
+  console.log("arrow function call...");
+};
 
 anonum();
 arrow();
 
-
-
 //================================== 5. Asynchrous  =================================
-
 
 // console.log('sart set timeout');
 
@@ -220,70 +226,71 @@ arrow();
 
 //callback function
 
-function geet(name,callback){//function
-    console.log('normal function-->'+name);
-    callback();
+function geet(name, callback) {
+  //function
+  console.log("normal function-->" + name);
+  callback();
 }
-function callme(){
-    console.log('i am call back function');
+function callme() {
+  console.log("i am call back function");
 }
-geet('petter',callme);
-
+geet("petter", callme);
 
 //promise
 
-var promiseCoundition=true;
-let promise= new Promise(function (reslove, reject){
-    if(promiseCoundition){
-        reslove("Promise successful...");
-    }else{
-        reject('Promise error ..!');
-    }
+var promiseCoundition = true;
+let promise = new Promise(function (reslove, reject) {
+  if (promiseCoundition) {
+    reslove("Promise successful...");
+  } else {
+    reject("Promise error ..!");
+  }
 });
 
 console.log(promise);
 
-let p2=new Promise((reslove,reject)=>{
-    let data=true;
-    if(data){
-        reslove('sceesfully...!');
-    }else{
-        reject('server error...!');
-    }
+let p2 = new Promise((reslove, reject) => {
+  let data = true;
+  if (data) {
+    reslove("sceesfully...!");
+  } else {
+    reject("server error...!");
+  }
 });
 
-p2.then(function (res){
-    console.log('then result---->'+res);
-}).catch(function (eorr){
-    console.log('catch result---> '+eorr);
+p2.then(function (res) {
+  console.log("then result---->" + res);
+}).catch(function (eorr) {
+  console.log("catch result---> " + eorr);
 });
 
 //asyn /awit
 
 //no asyn function example
-function wait(){
-    setTimeout(() => {
-        return 'user data server';
-    }, 4000);
+function wait() {
+  setTimeout(() => {
+    return "user data server";
+  }, 4000);
 }
 
-function fondend(){
-    let dat=wait();
-    console.log('wait---->'+dat);
-    console.log('function end!!!!!!');
+function fondend() {
+  let dat = wait();
+  console.log("wait---->" + dat);
+  console.log("function end!!!!!!");
 }
 
 fondend();
 
- let waiting=new Promise(function (resolve, reject) {
-    setTimeout(function () {
-    resolve('USER DATA SENT SERVER')}, 3000); 
+let waiting = new Promise(function (resolve, reject) {
+  setTimeout(function () {
+    resolve("USER DATA SENT SERVER");
+  }, 3000);
 });
 
-async function fondend1(){
-    let dat=await waiting;
-    console.log('WAITING---->'+dat);
-    console.log('ASYNC FUNCTION END!!!!!!');
+async function fondend1() {
+  let dat = await waiting;
+  console.log("WAITING---->" + dat);
+  console.log("ASYNC FUNCTION END!!!!!!");
 }
 
 fondend1();

@@ -163,7 +163,7 @@ let newFind = words.find((ele) => ele.length > 6);
 console.log(newFind);
 
 //5.findIndex()
-console.log(words.findIndex((ele) => ele.length > 6));
+console.log("findIndex--->" + words.findIndex((ele) => ele.length > 6));
 
 //6. includes()
 console.log(words.includes("elite"));
@@ -214,3 +214,8 @@ for (const i of arr) {
 for (const i of arr.values()) {
   console.log(i);
 }
+
+var abbb = ["alv", "fsdf", "fghfgh", "jkhjk"];
+let r = abbb.findIndex((ele) => ele == "jkhjk");
+
+console.log(r);
