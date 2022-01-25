@@ -50,3 +50,34 @@ setTimeout(() => {
    
 
 }, 1000);
+
+
+const el = document.querySelector('.mouse');
+let lastMove = 0;
+
+// When the mouse is being moved
+function onMouseMove (e) {
+  // Get the x and y coordinates
+  x = e.clientX;
+  y = e.clientY;
+  
+  // Save the last move time
+  lastMove = Date.now();
+}
+
+// Update the mouse position based on x & y
+function updateMouse (x, y) {
+  el.style.transform = `translate(${x}px, ${y}px)`;
+}
+
+function render (a) {
+  // Check if last move was more than 500ms ago
+  if (Date.now() - lastMove > 500) {
+    // Generate a fake mouse position
+
+    updateMouse(x, y);
+  }
+}
+
+// Listen to mouse events
+window.addEventListener('mousemove', onMouseMove);

@@ -167,6 +167,24 @@ for (let index = 0; index < 5; index++) {
 // // var sum = addNumbers(1, 2, 3);
 // console.log("function overrideing---->>>>>" + addNumbers(1, 2));
 // console.log("function overrideing---->>>>>" + addNumbers(1, 2, 3));
+
+//Immediate execution of a function
+(function () {
+  console.log("<<<<<<<<Immediate execution of a function>>>>>");
+})();
+
+// object inside function of value in javascript
+var obj2 = {
+  key1: "val1",
+  key2: function () {
+    return {
+      a: "this is a val",
+    };
+  },
+};
+
+console.log(obj2.key2().a);
+
 var Data = document.getElementById("inputData").vaule;
 var errorMassage = document.getElementById("error");
 errorMassage.innerHTML = "no error...";

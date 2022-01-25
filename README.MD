@@ -98,6 +98,8 @@
 1. named function
 2. Anonymous function (without a name).
    - does not have any name
+   1. Immediate execution of function
+   2. object inside function of value in javascript
 3. Arrow function
    - ES6 introduced a new and shorter way of declaring an anonymous function
 
