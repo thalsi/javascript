@@ -1,13 +1,13 @@
 # JavaScript 
 JavaScript — Complete Master Course (100% coverage) — Table of Contents
 
-Module 0 — Course roadmap & learning plan
+## Module 0 — Course roadmap & learning plan
 0.1 Goals & outcomes (what you’ll be able to build)
 0.2 How to use this course (practice, projects, code style)
 0.3 Setup: editors, Node.js, npm/yarn, source control (git)
 0.4 Recommended exercises & milestones
 
-Module 1 — JavaScript fundamentals (the absolute basics)
+## Module 1 — JavaScript fundamentals (the absolute basics)
 1.1 What is JavaScript? history, runtime (browser vs Node)
 1.2 Embedding JS in HTML — <script> tags and defer, async
 1.3 First program: console.log, comments, semicolons
@@ -18,7 +18,7 @@ Module 1 — JavaScript fundamentals (the absolute basics)
 1.8 Numbers: parsing, precision pitfalls, Math utilities
 1.9 Booleans & truthy/falsy values
 
-Module 2 — Control flow & data structures
+## Module 2 — Control flow & data structures
 2.1 Conditional statements: if, else if, else, ternary
 2.2 Switch statement
 2.3 Loops: for, while, do...while, for...of, for...in
@@ -28,7 +28,7 @@ Module 2 — Control flow & data structures
 2.7 Deep vs shallow copy; spread operator (...)
 2.8 Destructuring arrays & objects
 
-Module 3 — Functions & scope
+## Module 3 — Functions & scope
 3.1 Function declaration vs expression vs arrow functions
 3.2 Parameters, default parameters, rest parameters
 3.3 Return values, implicit returns (arrow)
@@ -37,7 +37,7 @@ Module 3 — Functions & scope
 3.6 IIFE (Immediately Invoked Function Expressions)
 3.7 Higher-order functions, callbacks, function composition
 
-Module 4 — Advanced types & built-in objects
+## Module 4 — Advanced types & built-in objects
 4.1 Date object & formatting
 4.2 Regular expressions: creation, flags, common patterns, methods
 4.3 Map, Set, WeakMap, WeakSet — when & why to use
@@ -45,7 +45,7 @@ Module 4 — Advanced types & built-in objects
 4.5 Error handling: throw, try...catch...finally, custom Error types
 4.6 Iterators & generators (basic introduction)
 
-Module 5 — Modern JavaScript (ES6+ essentials)
+## Module 5 — Modern JavaScript (ES6+ essentials)
 5.1 Let/const revisited and block scoping best practices
 5.2 Template literals, tagged templates
 5.3 Destructuring in depth (nested, defaults)
@@ -56,7 +56,7 @@ Module 5 — Modern JavaScript (ES6+ essentials)
 5.8 class syntax: constructors, methods, inheritance, static methods
 5.9 for...of, Promise, Symbol, BigInt overview
 
-Module 6 — Asynchronous JavaScript
+## Module 6 — Asynchronous JavaScript
 6.1 The event loop, call stack, task queue, microtasks — how JS concurrency works
 6.2 Callbacks: pyramid of doom & callback patterns
 6.3 Promises: creation, chaining, Promise.all, Promise.race, allSettled
