@@ -118,9 +118,41 @@ x = "forty two";  // now a string
 ```
 
 ### There are two main categories of types:
-    1. Primitive types (immutable, stored by value)
+    1. Primitive Types (Immutable, stored by value)
+      + Types: Number, String, Boolean, Null, Undefined, Symbol, BigInt.
+      + Immutable: Once created, you cannot change the value itself.If you "modify" it, JavaScrip actually creates a new value in memory.
+      + Stored by value: A copy of the value is stored, not the original reference.
+```
+let x = "hello";
+x[0] = "H";  
+console.log(x); // "hello" ❌ no change (string immutable)
+
+let y = x; // copy value
+x = "world"; 
+console.log(y); // "hello" (independent copy)
+console.log(x); // "world"
+
+```
+
     2. Objects (mutable, stored by reference)
 
+    + Types: Object, Array, Function, Date, RegExp, etc.
+    + Mutable: You can change the contents (properties/elements) without creating a new object.
+    + Stored by reference: Variable holds a reference (pointer) to the memory location.
+    If two variables reference the same object, changes in one affect the other.
+
+```
+let obj1 = { name: "Alice" };
+let obj2 = obj1;  // reference copy, not a new object
+
+obj2.name = "Bob";  
+console.log(obj1.name); // "Bob" ✅ changed for both
+
+let arr = [1, 2, 3];
+arr.push(4);  
+console.log(arr); // [1,2,3,4] ✅ array mutated
+
+```
 #### 1.4.1 Primitive Types (7 total)
 
 1. Number
