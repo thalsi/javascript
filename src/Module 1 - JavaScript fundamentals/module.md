@@ -1,6 +1,6 @@
 # Module 1 — JavaScript fundamentals (the absolute basics)
 1.1 What is JavaScript? history, runtime (browser vs Node)
-1.2 Embedding JS in HTML — <script> tags and defer, async
+1.2 Embedding JS in HTML — `<script>` tags and defer, async
 1.3 First program: console.log, comments, semicolons
 1.4 Values & types (Number, String, Boolean, Null, Undefined, Symbol, BigInt)
 1.5 Variables: var, let, const — scope and hoisting
@@ -24,7 +24,7 @@ A high-level, interpreted programming language that makes web pages interactive.
 ---
 
 
-## 1.2 Embedding JS in HTML — <script> Tags
+## 1.2 Embedding JS in HTML — `<script>` Tags
 
 Ways to include JS in HTML:
 
